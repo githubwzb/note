@@ -1,0 +1,364 @@
+
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+
+  /* Sspai Web Theme A theme to [sspai](ssp.ai) default theme. Developed by Codegass(wchweichenhao@gmial.com) & Yves(yves@sspai.com) Download Cuto on the App Store and Google Play! */
+  body .mume.markdown-preview   {
+	background-color:rgb(247, 217, 179);
+	/*增加背景网格*/
+	background-image: linear-gradient(90deg, rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%), linear-gradient(360deg,rgba(50, 0, 0, 0.05) 3%, rgba(0, 0, 0, 0) 3%);
+	background-size: 20px 20px;
+	background-position: center center;
+}
+h1 {
+	background: linear-gradient(135deg, #f66, #f90, #3c9, #09f, #66f) left center/400% 400%;
+	animation: gradientChange 10s infinite;
+	transition: background-position .5s;
+	background-position:100% 0; 
+
+
+}
+@keyframes gradientChange  {
+	0%,
+	100% {
+		background-position-x: left;
+	}
+	50% {
+		background-position-x: right;
+	}
+}
+
+h1 {
+	font-size: 2.2em;
+	text-align:center;
+	font-weight: 700;
+	line-height: 20;
+	padding-top: 16px;
+	padding-bottom: 10px;
+	margin-bottom: 4px;
+	font-family: "楷体";
+}
+h2, h3, h4, h5, h6 {
+	line-height: 1.5em;
+	margin-top: 2.2em;
+	margin-bottom: 4px;
+}
+h2 {
+	font-size: 1.4em;
+	margin: 40px 10px 20px 0;
+	padding-left: 9px;
+	border-left: 5px solid #ff7e79;
+	border-bottom: 2px dotted #ff7e79;
+	font-weight: 700;
+	line-height: 1.4;
+	font-family: "楷体";
+}
+h3 {
+	padding-left: 9px;
+	border-left: solid  #ff7e79 3px;
+	font-weight: 700;
+	font-size: 1.1em;
+	line-height: 1.4;
+	margin: 10px 0 5px;
+	padding-top: 10px;
+}
+h4 {
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 1.1em;
+	line-height: 1.4;
+	margin: 10px 0 5px;
+	padding-top: 10px
+}
+h5, h6 {
+	font-size: .9em;
+}
+h5 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+h6 {
+	font-weight: normal;
+	color: #AAA;
+}
+img {
+	width: 100%;
+	border-radius: 5px;
+	display: block;
+	margin-bottom: 15px;
+	height: auto;
+	
+}
+dl, ol, ul {
+	margin-top: 12px;
+	margin-bottom: 20px;
+	padding-left: 5%;
+	line-height: 1.8;
+}
+p {
+	margin: 0 0 20px;
+	padding: 0;
+	line-height: 1.8;
+}
+a {
+	color: #f22f27;
+	text-decoration: none;
+}
+a:hover {
+	color: #f55852;
+	text-decoration: underline;
+}
+.container a:hover {
+	color: #f55e55;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0);
+  }
+a:focus {
+	outline-offset: -2px;
+}
+html body blockquote {
+	font-size: 1em;
+	font-style: normal;
+	margin: 0 0 10px;
+	position: relative;
+	opacity: 70%;
+	line-height: 1.8;
+	text-indent: 0;
+	border: none;
+	color: #2a3115;
+	background-color: 	#8EA336;
+}
+blockquote:before {
+	content: "“";
+	left: 0px;
+	top: 0;
+	color: #E2F5AE;
+	font-size: 2em;
+	font-family: Arial, serif;
+	line-height: 1em;
+	font-weight: 500;
+	position: absolute;
+}
+blockquote:after {
+	content: "”";
+	right: 12px;
+	color: 	#E2F5AE;
+	font-size: 2em;
+	font-family: Arial, serif;
+	line-height: 1em;
+	font-weight: 500;
+	position: absolute;
+	bottom: -6px;
+}
+strong, dfn {
+	font-weight: 700;
+}
+em, dfn {
+	font-style: italic;
+	font-weight: 400;
+}
+del {
+	text-decoration: line-through;
+}
+/*code {font-size:90%;}*/
+
+/*pre {text-align:left; overflow-x: scroll; color: #257fa0; background: #f6f6f6; padding: 10pt 15pt; border-radius: 3px; border: solid 1px #e2e2e2;}*/
+
+pre {
+	margin: 0 0 10px;
+	font-size: 13px;
+	line-height: 1.42857;
+	word-break: break-all;
+	word-wrap: break-word;
+	border-radius: 4px;
+	white-space: pre-wrap;
+	display: block;
+	background: #fdedc5;
+	padding: 10px 20px;
+	border: none;
+	margin-bottom: 25px;
+	color: #666;
+	font-family: Courier, sans-serif;
+}
+pre[class*="language-"] {background: #fdedc5;}
+
+html  body code {
+	color: #c7254e;
+	background-color: #eefcb8;
+	border-radius: 4px;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+	padding: 2px 4px;
+	font-size: 90%;
+}
+figure {
+	margin: 1em 0;
+}
+figcaption {
+	font-size: 0.75em;
+	padding: 0.5em 2em;
+	margin-bottom: 2em;
+}
+figure img {
+	margin-bottom: 0px;
+}
+hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+}
+ol p, ul p {
+	margin-bottom: 0px;
+}
+li {
+	margin-bottom: 0.75em;
+	margin-top: 0.75em;
+}
+ol#footnotes {
+	font-size: 0.95em;
+	padding-top: 1em;
+	margin-top: 1em;
+	margin-left: 0;
+	border-top: 1px solid #eaeaea;
+	counter-reset: footer-counter;
+	list-style: none;
+	color: #555;
+	padding-left: 5%;
+	margin: 20px 0;
+}
+ol#footnotes li {
+	margin-bottom: 10px;
+	margin-left: 16px;
+	font-weight: 400;
+	line-height: 2;
+	list-style-type: none;
+}
+ol#footnotes li:before {
+	content: counter(footer-counter) ". ";
+	counter-increment: footer-counter;
+	font-weight: 800;
+	font-size: .95em;
+}
+a:target, ol#footnotes li:target, sup a:target {
+	animation-name: highfade;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	-webkit-animation-name: highfade;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in-out;
+}
+a:target {
+	border: 0;
+	outline: 0;
+}
+label { /*flex布局让子元素水平垂直居中*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input[type=checkbox],input[type=radio] {
+	-webkit-appearance: none;
+	appearance: none;
+	outline: none;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	vertical-align: center;
+	background:rgb(248, 222, 188);
+	border: 1px solid #ccc;
+	position: relative;
+	&:hover {
+		background-color: rgb(47, 98, 240);
+		box-shadow: 0 0 7px rgb(47, 98, 240);
+	}
+}
+
+input[type=checkbox]:checked::after {
+	content: "\2713";
+	display: block;
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	right: 0;
+	bottom: 0;
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	border: 1px solid #ddd;
+	color: red;
+	font-size: 12px;
+}
+
+
+input[type=radio]:checked::after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 0;
+	bottom: 0;
+	width: 6px;
+	height: 6px;
+	background-color: red;
+}
+input[type=radio], input[type=radio]:checked::after {
+	border-radius: 50%;
+
+}
+
+th {
+	background-color: #fda265;
+}
+tbody tr:nth-child(odd) {
+	background-color: #fcb67d;
+}
+  
+tbody tr:nth-child(even) {
+	background-color: #ffdcb5;
+}
+html body strong{
+	color: #996600;
+}
+mark{
+	background-color:#CCCC00;
+}
+b{
+	color: #996600;
+}
+.warning{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    position: relative;
+    margin: 1.5625em 0;
+    padding: 0 .6rem;
+    border-left: .2rem solid #996600;
+	border-radius: .1rem;
+	background-color: #ffddb0;
+}
+.warning::before{
+	color: #ff9500;
+	content: "⚠   WARNING";
+	font-size: large;
+	margin-bottom: 0px;
+	
+}
+.question{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+    position: relative;
+    margin: 1.5625em 0;
+    padding: 0 .6rem;
+    border-left: .2rem solid #03a547;
+	border-radius: .1rem;
+	background-color: #cbfcc7;
+}
+.question::before{
+	color: #2ffd06fa;
+	content: "❔ QUESTION";
+	font-size: large;
+	margin-bottom: 0px;
+	
+}

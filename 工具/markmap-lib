@@ -1,0 +1,11 @@
+Usage: markmap [options] <input>
+
+Create a markmap from a Markdown input file
+
+Options:
+  -V, --version          output the version number
+  -o, --output <output>  specify filename of the output HTML
+  --enable-mathjax       enable MathJax support
+  --enable-prism         enable PrismJS support
+  --no-open              do not open the output file after generation
+  -h, --help             display help for command
