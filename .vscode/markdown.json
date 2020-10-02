@@ -1,0 +1,189 @@
+{
+	"代码块":{
+		"prefix": "`",
+		"body": [
+			"```",
+			"$1",
+			"```"
+		]
+	},
+	"大型行内公式":{
+		"prefix": "$$",
+		"body": [
+			"$$$1$$"
+		]
+	},
+	"￥":{
+		"prefix": "$",
+		"body": "$$1$"
+	},
+	"下标":{
+		"prefix": "_",
+		"body": "_{$1} "
+	},
+	"上标":{
+		"prefix": "^",
+		"body": "^{$1} "
+	},
+	"分式":{
+		"prefix": "/",
+		"body": "\\dfrac {$1} {$2} "
+	},
+	"二次根式":{
+		"prefix": "g",
+		"body": "\\sqrt {$1} "
+	},
+	"高次根式":{
+		"prefix": "gcg",
+		"body": "\\sqrt [$1] {$2} "
+	},
+	"累计求和":{
+		"prefix": "qh",
+		"body": "\\sum _{$1} ^{$2} {$3} "
+	},
+	"累计求积":{
+		"prefix": "qj",
+		"body": "\\prod _{$1} ^{$2} {$3} "
+	},
+	"积分":{
+		"prefix": "jf",
+		"body": "\\int _{$1} ^{$2} {$3}dx "
+	},
+	"向量":{
+		"prefix": "xl",
+		"body": "\\overrightarrow {$1} "
+	},
+	"大于等于":{
+		"prefix": "dd",
+		"body": "\\ge "
+	},
+	"小于等于":{
+		"prefix": "xd",
+		"body": "\\le "
+	},
+	"加粗":{
+		"prefix": "**",
+		"body": "**$1**"
+	},
+	"空格":{
+		"prefix": "k",
+		"body": "\\quad "
+	},
+	"属于":
+	{
+		"body": "\\in",
+		"prefix": "sy"
+	},
+	"居中":{
+		"prefix":"zz",
+		"body": 
+		["<center> $1 </center>"]
+	},
+	"两个空格":{
+		"prefix": "2kg",
+		"body": ["&nbsp;&nbsp;"]
+	},
+	"三个空格":{
+		"prefix": "3kg",
+		"body": ["&nbsp;&nbsp;&nbsp;"]
+	},
+	"四个空格":{
+		"prefix": "4kg",
+		"body": ["&nbsp;&nbsp;&nbsp;&nbsp;"]
+	},
+	"五个空格":{
+		"prefix": "5kg",
+		"body": ["&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"]
+	},
+	"章":{
+		"prefix": "z",
+		"body":[
+			 "# <center><pre>第$1章     $2 </pre></center>",
+			 "$3"
+			]
+	},
+	"右箭头":{
+		"prefix": "yjt",
+		"body": " \\to "
+	},
+	"黄色高亮":{
+		"prefix": "gl",
+		"body": "<tt style=\"background-color:#fdf700\">$1</tt>"
+	},
+	"任意":{
+		"prefix": "ry",
+		"body": "\\forall "
+	},
+	"充要":{
+		"prefix": "cy",
+		"body": " \\iff "
+	},
+	"土":{
+		"prefix": "tu",
+		"body": " \\pm "
+	},
+	"干":{
+		"prefix": "gan",
+		"body": " \\mp "
+	},
+	"无穷大":
+	{
+		"prefix": "wqd",
+		"body": " \\infty "
+	},
+	"对齐":
+	{
+		"prefix": "dq",
+		"body": ["\\begin{aligned}",
+		"$1",
+		"\\end{aligned}"]
+	},
+	"化学下标":
+	{
+		"prefix": "xb",
+		"body": "$ _{$1}$"
+	},
+	"化学上标":{
+		"prefix": "sb",
+		"body": "$^{$1}$"
+	},
+	"圆":{
+		"prefix": "y",
+		"body": "\\bigodot $1"
+	},
+	"不等于":{
+		"prefix": "bdy",
+		"body":"\\ne "
+	},
+	"TODOlist":{
+		"prefix": "-",
+		"body": "- [ ] "
+	},
+	"WARNING":{
+		"prefix": "!",
+		"body": "<div class=\"warning\"><p>$1</p></div>"
+	},
+	"QUESTION":{
+		"prefix": "?",
+		"body": "<div class=\"question\"><p>$1</p></div>"
+	},
+	"存在":{
+		"prefix": "cz",
+		"body": "\\exists "
+	},
+	"执行表":{
+		"prefix": "zxb",
+		"body": ["# 执行表",
+		"## 待执行",
+		"$1",
+		"## 已执行"]
+	},
+	"方程组":{
+		"prefix": "fcz",
+		"body": [
+			"\\begin{cases}",
+			"$1",
+			"\\end{cases}"
+		]
+	}
+}
