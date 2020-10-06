@@ -54,11 +54,11 @@
 		"body": "\\overrightarrow {$1} "
 	},
 	"大于等于":{
-		"prefix": "dd",
+		"prefix": "dydy",
 		"body": "\\ge "
 	},
 	"小于等于":{
-		"prefix": "xd",
+		"prefix": "xydy",
 		"body": "\\le "
 	},
 	"加粗":{
@@ -185,5 +185,17 @@
 			"$1",
 			"\\end{cases}"
 		]
+	},
+	"约等于":{
+		"prefix": "ydy",
+		"body": "\\approx "
+	},
+	"行列式":{
+		"prefix": "hls",
+		"body": ["\\begin{vmatrix}",
+		"$1 &  \\\\",
+		"$2 &  ", 
+	 "\\end{vmatrix}"]
 	}
+
 }
